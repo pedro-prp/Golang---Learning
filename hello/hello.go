@@ -13,7 +13,7 @@ func main() {
 	log.SetFlags(0)
 
 	// Get a greeting message and print it
-	message, err := greetings.Hello("")
+	message, err := greetings.Hello("Joao")
 
 	//if has errors
 	if err != nil {
